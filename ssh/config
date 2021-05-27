@@ -1,0 +1,13 @@
+# Work Gitlab account
+Host gitlab.com
+ HostName gitlab.com
+ User git
+ AddKeysToAgent yes
+ UseKeychain yes
+ IdentityFile ~/.ssh/walulel_rsa
+
+# Personal Git
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa

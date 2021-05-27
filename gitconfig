@@ -1,0 +1,13 @@
+[user]
+	
+
+[commit]
+    gpgsign = true
+[user]
+    name = Mike Perry Y Attara
+		email = mpyebattara@gmail.com
+    signingkey = 0A9018FDEDA6BA7F
+[gpg]
+    program = gpg
+[core]
+	editor = nano -w
